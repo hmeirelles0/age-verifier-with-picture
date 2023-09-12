@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Verifier</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="title">
+        <h1>Age Verifier</h1>
+    </header>
+
+    <section id="sector">
+        <div>
+            <p> Type in birth year:
+                 <input type="number" name="txtyear" id="answer" min="0" max="150">
+            </p>
+        </div>
+        
+        <div>
+            <p>Sex: 
+                <input type="radio" name="radsex" id="radmale" checked>
+                <label for="radmale">Male</label>
+                <input type="radio" name="radsex" id="radfemale">
+                <label for="radfemale">Female</label>
+            </p>
+        </div>
+
+        <input id="button" type="button" value="Verify" onclick="clicou()">
+
+        <div id="result">
+        
+        </div>
+
+    </section>
+
+    <p id="copyright">
+        &copy;henriqueferraz1999
+    </p>
+    
+    <script src="main.js"></script>
+</body>
+</html>

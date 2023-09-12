@@ -1,0 +1,49 @@
+body {
+    background: rgba(4, 180, 180, 0.671);
+}
+
+header#title {
+    color: white;
+    background: black;
+    border-radius: 8px;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    font: normal 17pt Arial;
+    padding: 1px;
+}
+
+section#sector {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    margin-top: 30px;
+    font: normal 20pt Arial;
+    box-shadow: rgba(0, 0, 0, 0.466) 5px 5px 10px;
+    
+}
+
+input#button {
+    width: 75px;
+    height: 30px;
+    font: italic 15pt Arial;
+    border-radius: 2px;
+}
+
+input#answer {
+    height: 20px;
+}
+
+div#result {
+    margin-top: 20px;
+}
+
+p#copyright {
+    font: italic 15pt Arial;
+    text-align: center;
+}
+
+
